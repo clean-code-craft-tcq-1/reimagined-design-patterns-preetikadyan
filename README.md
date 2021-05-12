@@ -18,7 +18,7 @@ Four Design Patterns
   This pattern is used in cases where you want to integrate a new interface/class/function which is not compatible with the existing functionality and want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
 
   Advanatages and Disadvantages: You can separate the interface or data conversion code from the primary business logic of the program.You can introduce new types of  interfaces/functionality into the program without breaking the existing code.Re-Usability & Flexibility is provided by this pattern as it provides inheritance.
-The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. 
+The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Usgae of this pattern is avoided in case of complex problems. 
 
 
 2. Prototype Pattern
