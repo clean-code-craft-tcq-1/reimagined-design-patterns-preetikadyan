@@ -13,11 +13,11 @@ Four Design Patterns
 
 1. Adapter Pattern
 
-Adapter is structural design pattern to collaborate independent, incompatible/unrelated interfaces. It wraps/ converts the interface of a class/component into a suitable interface which is expected by a client/other class.
+  Adapter is structural design pattern to collaborate independent, incompatible/unrelated interfaces. It wraps/ converts the interface of a class/component into a suitable   interface which is expected by a client/other class.
 
-This pattern is used in cases where you want to integrate a new interface/class/function which is not compatible with the existing functionality and want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
+  This pattern is used in cases where you want to integrate a new interface/class/function which is not compatible with the existing functionality and want to reuse several existing subclasses that lack some common functionality that can’t be added to the superclass.
 
-Advanatages and Disadvantages: You can separate the interface or data conversion code from the primary business logic of the program.You can introduce new types of interfaces/functionality into the program without breaking the existing code.Re-Usability & Flexibility is provided by this pattern as it provides inheritance.
+  Advanatages and Disadvantages: You can separate the interface or data conversion code from the primary business logic of the program.You can introduce new types of  interfaces/functionality into the program without breaking the existing code.Re-Usability & Flexibility is provided by this pattern as it provides inheritance.
 The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. 
 
 
