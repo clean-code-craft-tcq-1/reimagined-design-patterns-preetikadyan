@@ -54,7 +54,7 @@ The overall complexity of the code increases because you need to introduce a set
 
 3. **Decorator Pattern**
 
-   **Implementation: Decorator design pattern is mostly used when the core logic of a particular software implementation remains the same while variants perform different pre or postprocessing on the data. A relevant example is our past assignment to generate different notifications for high or low temperatures in the battery management farm. Decorators give the flexibility to add new notification systems easily and the freedom to choose the combination of notifications to the client.
+   **Implementation**: Decorator design pattern is mostly used when the core logic of a particular software implementation remains the same while variants perform different pre or postprocessing on the data. A relevant example is our past assignment to generate different notifications for high or low temperatures in the battery management farm. Decorators give the flexibility to add new notification systems easily and the freedom to choose the combination of notifications to the client.
    
     **Functioning:** Decorator works on the principle of recursive composition. What that means is that it works on the principle of enhancing a class interface through composition rather than inheritance while retaining the interface definition. This follows the Abstraction -> Accumulation flow of design patterns.
     
@@ -64,9 +64,11 @@ The overall complexity of the code increases because you need to introduce a set
 
 4. **Observer Pattern**
 
-   **Observer** design pattern is used when the change in state of one object needs a functions to be called in another object with minimal overhead. A relevant example is from my workplace wherein, if there is a change in input file content, it should trigger a different build mechanism as opposed to when the input files are unchanged. Observers are useful when you want to add multiple handlers for a state change of an object which only activate when there is a state change.
+   **Observer** is a behavioral design pattern. It specifies communication between objects: observable and observer. An observable is an object which notifies the observer regarding the change of the state. It is used when the change in state of one object needs a functions to be called in another object with minimal overhead. A relevant example is from my workplace wherein, if there is a change in input file content, it should trigger a different build mechanism as opposed to when the input files are unchanged. Observers are useful when you want to add multiple handlers for a state change of an object which only activate when there is a state change.
    
     **Functioning**: It works on a publisher, subscriber mechanism where the publisher maintains a list of subscribers with an interface to add and remove subscribers. The change of state of the publisher results in a call to notify all subscribers in the subscribers list - this means that each subscriber should have a uniform interface for notification from the publisher.
     
    **Advanatages and Disadvantages**: An advantage is that it allows addition of subscribers during run-time and isn't static. A disadvantage is that the order in which the subscribers are notified cannot be controlled.
+   
+   **Example**: A real time example is when an agency news notifies the channels when it receives news
 
