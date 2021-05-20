@@ -60,6 +60,8 @@ The overall complexity of the code increases because you need to introduce a set
     
     **Advanatages and Disadvantages**: Advantage is that it allows different compositions of required behavior at the client while retaining class hierarchy simplicity. Disadvantage is that decorators cannot break the flow of the request since they are recursive.
     
+    **Example**: During Christmas on the Christmas tree we add several decorators including bells, stars, fake-gifts to enhance it's beauty. All these are added to give it a festive look
+    
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 4. **Observer Pattern**
