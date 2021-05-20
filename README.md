@@ -29,8 +29,6 @@ The overall complexity of the code increases because you need to introduce a set
 
   **Example**: A real life example is a card reader which acts as an adapter between the Memory Card and the Laptop
   
-  ![image](https://user-images.githubusercontent.com/13776900/119014746-e826ad00-b9b5-11eb-9139-f68abaa9bcf9.png)
-  
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 
@@ -54,7 +52,7 @@ The overall complexity of the code increases because you need to introduce a set
     
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------    
 
-3. **Decorator Pattern
+3. **Decorator Pattern**
 
    **Implementation: Decorator design pattern is mostly used when the core logic of a particular software implementation remains the same while variants perform different pre or postprocessing on the data. A relevant example is our past assignment to generate different notifications for high or low temperatures in the battery management farm. Decorators give the flexibility to add new notification systems easily and the freedom to choose the combination of notifications to the client.
    
@@ -64,7 +62,7 @@ The overall complexity of the code increases because you need to introduce a set
     
  ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-4. **Observer Pattern
+4. **Observer Pattern**
 
    **Observer** design pattern is used when the change in state of one object needs a functions to be called in another object with minimal overhead. A relevant example is from my workplace wherein, if there is a change in input file content, it should trigger a different build mechanism as opposed to when the input files are unchanged. Observers are useful when you want to add multiple handlers for a state change of an object which only activate when there is a state change.
    
