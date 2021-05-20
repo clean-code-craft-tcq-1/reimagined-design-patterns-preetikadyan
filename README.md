@@ -43,7 +43,7 @@ The overall complexity of the code increases because you need to introduce a set
    - **Deep Copy** : In Deep Copy all the objects are duplicated
    - **Shallow Copy** : In Shallow Copy only the top-level objects are duplicated and the lower level objects contains references
    
-    **Advanatages and Disadvantages**: An advantage of prototyping is that it eliminates the need for the source code of a third party class implementation. A disadvantage is that circular references are more difficult to identify and debug.
+    **Advanatages and Disadvantages**: An advantage of prototyping is that it eliminates the need for the source code of a third party class implementation. A disadvantage is that circular references are more difficult to identify and debug. Circular references are bad because it leads to the inclusion of the functionalities which are unnecesary as they are dragged into situtaions which are not needed
     
     **Example**: In real life time we can see Prototype Pattern in the **mitotic division of the cell in which two identical cells are made after the division(i.e., one cell carries exactly the same information carried by another cell)
     
@@ -70,7 +70,7 @@ The overall complexity of the code increases because you need to introduce a set
    
     **Functioning**: It works on a publisher, subscriber mechanism where the publisher maintains a list of subscribers with an interface to add and remove subscribers. The change of state of the publisher results in a call to notify all subscribers in the subscribers list - this means that each subscriber should have a uniform interface for notification from the publisher.
     
-   **Advanatages and Disadvantages**: An advantage is that it allows addition of subscribers during run-time and isn't static. A disadvantage is that the order in which the subscribers are notified cannot be controlled.
+   **Advanatages and Disadvantages**: An advantage is that it allows addition of subscribers during run-time and isn't static. A disadvantage is that the order in which the subscribers are notified cannot be controlled. Memory leak happens in Observer pattern when the observer do not call unregister from the subject when it no longer needs to receive notification
    
    **Example**: A real time example is when an agency news notifies the channels when it receives news
 
