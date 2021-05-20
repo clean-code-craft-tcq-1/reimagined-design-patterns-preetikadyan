@@ -22,10 +22,10 @@ Give a summary description of Four design patterns that you choose from the foll
   **Advanatages and Disadvantages**: You can separate the interface or data conversion code from the primary business logic of the program.You can introduce new types of  interfaces/functionality into the program without breaking the existing code.Re-Usability & Flexibility is provided by this pattern as it provides inheritance.
 The overall complexity of the code increases because you need to introduce a set of new interfaces and classes. Usgae of this pattern is avoided in case of complex problems. 
 
-**Types of Adapter Pattern**
+  **Types of Adapter Pattern**
 
-- Class Adapter pattern: The Class Adapter Pattern is a type of adapter Pattern which implements the adapter using inheritance
-- Object Adapter pattern: The object Adapter Pattern is a type of adapter pattern that uses composition as an instance of the wrapped class within the adapter
+     - Class Adapter pattern: The Class Adapter Pattern is a type of adapter Pattern which implements the adapter using inheritance
+     - Object Adapter pattern: The object Adapter Pattern is a type of adapter pattern that uses composition as an instance of the wrapped class within the adapter
 
   **Example**: A real life example is a card reader which acts as an adapter between the Memory Card and the Laptop
   
